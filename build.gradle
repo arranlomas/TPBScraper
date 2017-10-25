@@ -41,4 +41,6 @@ dependencies {
     compile "io.ktor:ktor-server-netty:$ktor_version"
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile "ch.qos.logback:logback-classic:1.2.1"
+    compile 'org.jsoup:jsoup:1.10.3'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
 }
