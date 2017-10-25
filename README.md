@@ -34,8 +34,7 @@ Example Response
       "Seeds":12,
       "Leechers":3,
       "CategoryParent":"Video",
-      "Category":"Movies",
-      "blackoutShowing":false
+      "Category":"Movies"
    }
 ]
 ```
