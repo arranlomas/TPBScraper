@@ -15,12 +15,14 @@ enum class SortType{
     ULED_BY_DESCENDING,
     TYPE,
     TYPE_DESCENDING,
-    DEFAULT
-}
+    DEFAULT;
 
-fun SortType.getTpbValue(): Int{
-    return when(this){
-        SortType.DEFAULT -> 99
-        else -> this.ordinal+1
+    fun getTpbValue(): Int{
+        return when(this){
+            SortType.DEFAULT -> 99
+            else -> this.ordinal+1
+        }
     }
 }
+
+
