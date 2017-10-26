@@ -121,11 +121,10 @@ sudo apt install oracle-java8-set-default
 
 setup nginx - (needs more detail)
 
-setup gradle
 
 cd $HOME
 git clone https://github.com/arranlomas/TPBScraper.git
 
 cd TPBScraper
-gradle run
+./gradlew run
 
