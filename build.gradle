@@ -12,6 +12,11 @@ buildscript {
     }
 }
 
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+    test.java.srcDirs += 'src/test/kotlin'
+}
+
 apply plugin: 'java'
 apply plugin: 'kotlin'
 apply plugin: 'application'
