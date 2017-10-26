@@ -1,8 +1,8 @@
 package utils
 
-import io.ktor.util.ValuesMap
 import models.Category
 import models.SortType
+import org.jetbrains.ktor.util.ValuesMap
 import java.net.URLEncoder
 
 fun generateSearchLinkFromQuery(map: ValuesMap): GenerateSearchLinkResult {
