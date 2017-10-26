@@ -12,10 +12,6 @@ buildscript {
     }
 }
 
-sourceSets {
-    main.java.srcDirs += 'src/main/kotlin'
-    test.java.srcDirs += 'src/test/kotlin'
-}
 
 apply plugin: 'java'
 apply plugin: 'kotlin'
@@ -34,6 +30,11 @@ kotlin {
     experimental {
         coroutines "enable"
     }
+}
+
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+    test.java.srcDirs += 'src/test/kotlin'
 }
 
 run {
