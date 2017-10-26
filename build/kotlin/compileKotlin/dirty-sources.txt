@@ -1,0 +1,8 @@
+D:\IdeaProjects\TPBScraper\src\main\kotlin\server\JsoupWrapper.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\models\Category.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\utils\SearchUtils.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\models\SortType.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\models\TPBTorrent.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\server\HTMLScrape.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\utils\BrowseUtils.kt
+D:\IdeaProjects\TPBScraper\src\main\kotlin\server\main.kt
