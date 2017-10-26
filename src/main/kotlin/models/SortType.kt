@@ -24,5 +24,3 @@ enum class SortType{
         }
     }
 }
-
-

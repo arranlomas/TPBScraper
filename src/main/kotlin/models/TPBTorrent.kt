@@ -1,6 +1,6 @@
 package models
 
-data class TPBTorrent (
+data class TPBTorrent(
         var Name: String? = null,
         var Magnet: String? = null,
         var Link: String? = null,
@@ -12,6 +12,5 @@ data class TPBTorrent (
         var CategoryParent: String? = null,
         var Category: String? = null,
         var ImdbID: String? = null,
-        var CoverImage: String? = null,
-        var blackoutShowing: Boolean = false
+        var CoverImage: String? = null
 )
