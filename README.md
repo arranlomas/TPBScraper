@@ -110,3 +110,22 @@ Possible SortType
     TYPE
     TYPE_DESCENDING
     DEFAULT
+
+Deployment - Only tested on Ubuntu 16.04 - (work in progress - missing details)
+==========
+
+setup java -
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update; sudo apt install oracle-java8-installer
+sudo apt install oracle-java8-set-default
+
+setup nginx - (needs more detail)
+
+setup gradle
+
+cd $HOME
+git clone https://github.com/arranlomas/TPBScraper.git
+
+cd TPBScraper
+gradle run
+
