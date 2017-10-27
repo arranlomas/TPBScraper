@@ -43,7 +43,7 @@ fun Application.main() {
                 }
                 is GenerateSearchLinkResult.Valid -> {
                     val results = JsoupWrapper.parse(urlResult.url)
-                    val json = Gson().toJson(results.first())
+                    val json = Gson().toJson(results)
                     call.respondText(json, ContentType.Application.Json)
                 }
             }
