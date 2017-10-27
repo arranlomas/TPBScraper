@@ -10,7 +10,5 @@ data class TPBTorrent(
         var Seeds: Int = 0,
         var Leechers: Int = 0,
         var CategoryParent: String? = null,
-        var Category: String? = null,
-        var ImdbID: String? = null,
-        var CoverImage: String? = null
+        var Category: String? = null
 )
