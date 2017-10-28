@@ -7,7 +7,6 @@ import java.net.URLEncoder
 
 fun generateSearchLinkFromQuery(map: ValuesMap): GenerateSearchLinkResult {
     val searchTerm: String? = URLEncoder.encode(map["searchTerm"], "UTF-8")
-    if (searchTerm.isNullOrEmpty()) return GenerateSearchLinkResult.InvalidSearchTerm()
 
     val sortedBy: SortType = try{
         SortType.valueOf(map["sortedBy"] ?: "error!!!")

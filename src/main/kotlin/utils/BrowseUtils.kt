@@ -21,7 +21,7 @@ fun generateBrowseLink(map: ValuesMap): GenerateBrowseLinkResult{
     }catch (e: Exception){
         return GenerateBrowseLinkResult.InvalidCategory()
     }
-    
+
     println("QUERY: sortedBy: $sortedBy")
     println("QUERY: pageNumber: $pageNumber")
     println("QUERY: category: $category")
