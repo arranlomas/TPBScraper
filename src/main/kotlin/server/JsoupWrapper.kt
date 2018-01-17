@@ -1,14 +1,15 @@
 package server
 
 import models.TPBTorrent
-import org.jsoup.Jsoup
+import utils.getJsoupDoc
 
 object JsoupWrapper {
-    fun parse(url: String): List<TPBTorrent>{
-        val doc = Jsoup.connect(url)
-                .timeout(10 * 1000)
-                .userAgent("Mozilla")
-                .get()
-        return ScrapeHTML.scrape(doc)
+    fun parse(url: String): List<TPBTorrent> {
+        return try {
+            val doc = getJsoupDoc(url)
+            ScrapeHTML.scrape(doc)
+        } catch (e: Exception) {
+            emptyList()
+        }
     }
 }
