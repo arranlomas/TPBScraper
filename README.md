@@ -17,6 +17,7 @@ Routes
 
 -	`GET /search?searchTerm=<the string to queary>&sortedBy=<enum of SortedBy>&pageNumber=<page number (only 30 results are showed per page)>&category=<enum of Category>`
 -	`GET /browse?sortedBy=<enum of SortedBy>&pageNumber=<page number (only 30 results are showed per page)>&category=<enum of Category>`
+-	`GET /changeMirrorUrl?newMirrorUrl=<string of url new mirror to redirect to>`
 
 Example Response
 ==========
@@ -110,6 +111,12 @@ Possible SortType
     TYPE
     TYPE_DESCENDING
     DEFAULT
+    
+Changing mirror url
+==========
+This is useful if a mirror is not responding or has been taken down, please see the route mentioned above, urls should be formeted like the following - http://google.com
+note the http to start and no trailing /
+
 
 Deployment - Only tested on Ubuntu 16.04 - (work in progress - missing details)
 ==========
