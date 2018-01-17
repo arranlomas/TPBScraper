@@ -7,48 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78368c7a-d09c-4acd-b51f-ea76725212f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/Constants.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ServerKt$main$1$3.class" afterPath="$PROJECT_DIR$/build/classes/main/ServerKt$main$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/models/TPBTorrent.class" afterPath="$PROJECT_DIR$/build/classes/main/models/TPBTorrent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/server/ScrapeHTML.class" afterPath="$PROJECT_DIR$/build/classes/main/server/ScrapeHTML.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/BrowseUtilsKt.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/BrowseUtilsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$InvalidCategory.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$InvalidCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$InvalidPageNumber.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$InvalidPageNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$InvalidSortedBy.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$InvalidSortedBy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$Valid.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult$Valid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateBrowseLinkResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidCategory.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidPageNumber.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidPageNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidSearchTerm.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidSearchTerm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidSortedBy.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$InvalidSortedBy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$Valid.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult$Valid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/GenerateSearchLinkResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/utils/SearchUtilsKt.class" afterPath="$PROJECT_DIR$/build/classes/main/utils/SearchUtilsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/ServerKt$main$1$3.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/ServerKt$main$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/models/TPBTorrent.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/models/TPBTorrent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/server/ScrapeHTML.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/server/ScrapeHTML.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/BrowseUtilsKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/BrowseUtilsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$InvalidCategory.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$InvalidCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$InvalidPageNumber.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$InvalidPageNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$InvalidSortedBy.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$InvalidSortedBy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$Valid.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult$Valid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateBrowseLinkResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidCategory.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidPageNumber.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidPageNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidSearchTerm.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidSearchTerm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidSortedBy.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$InvalidSortedBy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$Valid.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult$Valid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/GenerateSearchLinkResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/utils/SearchUtilsKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/utils/SearchUtilsKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/utils/BrowseUtils.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/BrowseUtils.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/utils/SearchUtils.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/SearchUtils.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -79,8 +38,8 @@
           <file leaf-file-name="Server.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/Server.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+                <state relative-caret-position="96">
+                  <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#656#0" expanded="true" />
                   </folding>
@@ -92,7 +51,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
-                  <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                  <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -123,8 +82,8 @@
           <file leaf-file-name="SearchUtils.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/utils/SearchUtils.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
                   <folding>
                     <element signature="e#15#143#0" expanded="true" />
                   </folding>
@@ -587,7 +546,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/server/HTMLScrape.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/server/TPBTorrent.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/server/HTMLScrape.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utils/GeneralUtils.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/models/SortType.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/models/Category.kt" />
@@ -602,6 +560,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/Constants.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utils/BrowseUtils.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utils/SearchUtils.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt" />
       </list>
     </option>
   </component>
@@ -726,7 +685,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="TPB&#9;FILE&#9;file://D:/IdeaProjects/TPBScraper/src/main/kotlin/models/TPBTorrent.kt&#10;gradle.p&#9;FILE&#9;file://D:/IdeaProjects/TPBScraper/gradle/wrapper/gradle-wrapper.properties&#10;de&#9;ACTION&#9;ActivateDebugToolWindow&#10;convert&#9;ACTION&#9;ConvertJavaToKotlin&#10;sync&#9;ACTION&#9;Synchronize" />
+    <property name="SearchEverywhereHistoryKey" value="Jso&#9;FILE&#9;file://D:/IdeaProjects/TPBScraper/src/main/kotlin/server/JsoupWrapper.kt&#10;TPB&#9;FILE&#9;file://D:/IdeaProjects/TPBScraper/src/main/kotlin/models/TPBTorrent.kt&#10;gradle.p&#9;FILE&#9;file://D:/IdeaProjects/TPBScraper/gradle/wrapper/gradle-wrapper.properties&#10;de&#9;ACTION&#9;ActivateDebugToolWindow&#10;convert&#9;ACTION&#9;ConvertJavaToKotlin&#10;sync&#9;ACTION&#9;Synchronize" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../doktor-demo" />
   </component>
   <component name="RecentsManager">
@@ -1220,16 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Server.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1237,14 +1186,6 @@
           <folding>
             <element signature="e#0#133#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,10 +1215,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/server/JsoupWrapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/utils/SearchUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="e#15#143#0" expanded="true" />
           </folding>
