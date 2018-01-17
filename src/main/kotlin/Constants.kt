@@ -1,0 +1,1 @@
+const val TPB_URL = "https://thepiratebay.org"

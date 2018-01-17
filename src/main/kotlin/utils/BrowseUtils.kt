@@ -1,5 +1,6 @@
 package utils
 
+import TPB_URL
 import models.Category
 import models.SortType
 import org.jetbrains.ktor.util.ValuesMap
@@ -25,7 +26,7 @@ fun generateBrowseLink(map: ValuesMap): GenerateBrowseLinkResult{
     println("QUERY: sortedBy: $sortedBy")
     println("QUERY: pageNumber: $pageNumber")
     println("QUERY: category: $category")
-    val url = "https://pirateproxy.cam/browse/${category.getTpbValue()}/$pageNumber/${sortedBy.getTpbValue()}"
+    val url = "$TPB_URL/browse/${category.getTpbValue()}/$pageNumber/${sortedBy.getTpbValue()}"
     println("PIRATE BAY URL: url: $url")
     return GenerateBrowseLinkResult.Valid(url)
 }
