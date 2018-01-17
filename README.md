@@ -17,7 +17,7 @@ Routes
 
 -	`GET /search?searchTerm=<the string to queary>&sortedBy=<enum of SortedBy>&pageNumber=<page number (only 30 results are showed per page)>&category=<enum of Category>`
 -	`GET /browse?sortedBy=<enum of SortedBy>&pageNumber=<page number (only 30 results are showed per page)>&category=<enum of Category>`
--	`GET /changeMirrorUrl?newMirrorUrl=<string of url new mirror to redirect to>`
+-	`GET /changeMirrorUrl?newMirrorUrl=<url new mirror to scrape from>`
 
 Example Response
 ==========
