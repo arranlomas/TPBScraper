@@ -1,4 +1,4 @@
-private var TPB_URL = "https://thepiratebay.org"
+private var TPB_URL = "https://thepiratebay.rocks/"
 
 fun updateUrl(newUrl: String){
     TPB_URL = newUrl
