@@ -37,8 +37,13 @@ fun Application.main() {
                 is GenerateSearchLinkResult.InvalidCategory -> call.respond(HttpStatusCode(400, "invalid category"))
                 is GenerateSearchLinkResult.Valid -> {
                     val results = JsoupWrapper.parse(urlResult.url)
-                    val json = Gson().toJson(results)
-                    call.respondText(json, ContentType.Application.Json)
+                    if (results == null){
+                        call.respond(HttpStatusCode(503, "Error parsing results"))
+                    }else {
+                        val json = Gson().toJson(results)
+                        call.respondText(json, ContentType.Application.Json)
+                    }
+
                 }
             }
         }
@@ -47,11 +52,15 @@ fun Application.main() {
             return@get when (urlResult) {
                 is GenerateBrowseLinkResult.InvalidPageNumber -> call.respond(HttpStatusCode(400, "invalid page number"))
                 is GenerateBrowseLinkResult.InvalidSortedBy -> call.respond(HttpStatusCode(400, "invalid sort by"))
-                is GenerateBrowseLinkResult.InvalidCategory -> call.respond(HttpStatusCode(400, "invalid category"))
+                is GenerateBrowseLinkResult.InvalidCategory -> call.respond(HttpStatusCode(400, urlResult.message ?: "invalid category"))
                 is GenerateBrowseLinkResult.Valid -> {
                     val results = JsoupWrapper.parse(urlResult.url)
-                    val json = Gson().toJson(results)
-                    call.respondText(json, ContentType.Application.Json)
+                    if (results == null){
+                        call.respond(HttpStatusCode(503, "Error parsing results"))
+                    }else {
+                        val json = Gson().toJson(results)
+                        call.respondText(json, ContentType.Application.Json)
+                    }
                 }
             }
         }

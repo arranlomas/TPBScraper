@@ -14,39 +14,54 @@ object ScrapeHTML {
                 if (!element.hasClass("header")) {
                     val tpbTorrent = TPBTorrent()
 
-                    // first td, lets get the categories
-                    val td1 = element.children().select("td").first()
+                    try {
+                        // first td, lets get the categories
+                        val td1 = element.children().select("td").first()
+                        val categories = td1.children().select("a")
+                        tpbTorrent.CategoryParent = categories[0].text()
+                        tpbTorrent.Category = categories[1].text()
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
 
-                    val categories = td1.children().select("a")
-                    tpbTorrent.CategoryParent = categories[0].text()
-                    tpbTorrent.Category = categories[1].text()
+                    try {
+                        // second td, get some more info
+                        // get the torrent name
+                        val td2 = element.children().select("td")[1]
+                        val aTorrentName = td2.children().select("a").first()
+                        tpbTorrent.Name = aTorrentName.text()
 
-                    // second td, get some more info
-                    // get the torrent name
-                    val td2 = element.children().select("td")[1]
-                    val aTorrentName = td2.children().select("a").first()
-                    tpbTorrent.Name = aTorrentName.text()
+                        // get the file link
+                        tpbTorrent.Link = aTorrentName.attr("href")
 
-                    // get the file link
-                    tpbTorrent.Link = aTorrentName.attr("href")
+                        try {
+                            // get the magnet
+                            val torrentMagnet = td2.children().select("a")[1]
+                            tpbTorrent.Magnet = torrentMagnet.attr("href")
 
-                    // get the magnet
-                    val torrentMagnet = td2.children().select("a")[1]
-                    tpbTorrent.Magnet = torrentMagnet.attr("href")
+                            // get date, size, and uploader
+                            val details = td2.select("font").first()
+                            val torrentInfo = details.text()
+                            val splitInfo = torrentInfo.split(",".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
 
-                    // get date, size, and uploader
-                    val details = td2.select("font").first()
-                    val torrentInfo = details.text()
-                    val splitInfo = torrentInfo.split(",".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+                            tpbTorrent.Uploaded = splitInfo[0].substring(9)
+                            tpbTorrent.Size = splitInfo[1].substring(6)
+                            tpbTorrent.Uled = splitInfo[2].substring(9)
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
 
-                    tpbTorrent.Uploaded = splitInfo[0].substring(9)
-                    tpbTorrent.Size = splitInfo[1].substring(6)
-                    tpbTorrent.Uled = splitInfo[2].substring(9)
 
-                    // third td, get the seeds
-                    val td3 = element.children().select("td")[2]
-                    tpbTorrent.Seeds = Integer.parseInt(td3.text())
-
+                    try {
+                        // third td, get the seeds
+                        val td3 = element.children().select("td")[2]
+                        tpbTorrent.Seeds = Integer.parseInt(td3.text())
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
 
                     try {
                         val td4 = element.children().select("td")[3]

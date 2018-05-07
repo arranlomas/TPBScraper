@@ -23,6 +23,8 @@ fun generateBrowseLink(map: ValuesMap): GenerateBrowseLinkResult{
         return GenerateBrowseLinkResult.InvalidCategory()
     }
 
+    if (category == Category.All) return GenerateBrowseLinkResult.InvalidCategory("Cannot use All for browse category")
+
     println("QUERY: sortedBy: $sortedBy")
     println("QUERY: pageNumber: $pageNumber")
     println("QUERY: category: $category")
@@ -34,7 +36,7 @@ fun generateBrowseLink(map: ValuesMap): GenerateBrowseLinkResult{
 sealed class GenerateBrowseLinkResult {
     class InvalidSortedBy: GenerateBrowseLinkResult()
     class InvalidPageNumber: GenerateBrowseLinkResult()
-    class InvalidCategory: GenerateBrowseLinkResult()
+    data class InvalidCategory(val message: String? = null): GenerateBrowseLinkResult()
     data class Valid(val url: String): GenerateBrowseLinkResult()
 }
 
